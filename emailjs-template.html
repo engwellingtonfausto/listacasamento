@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação de presença</title>
+</head>
+<body style="margin:0;padding:24px;background-color:#f7f4ef;font-family:Arial,sans-serif;color:#292521;">
+  <div style="max-width:600px;margin:0 auto;padding:32px;background-color:#fcfaf6;border:1px solid #e6dfd5;">
+    <p style="margin:0 0 12px;color:#9e8060;font-size:12px;letter-spacing:2px;text-transform:uppercase;">
+      Confirmação de presença
+    </p>
+    <h1 style="margin:0 0 24px;font-family:Georgia,serif;font-size:28px;font-weight:normal;">
+      Nova resposta recebida
+    </h1>
+
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.6;">
+      <strong>{{name}}</strong> respondeu ao convite: <strong>{{attendance}}</strong>
+    </p>
+
+    <table role="presentation" style="width:100%;border-collapse:collapse;font-size:14px;line-height:1.6;">
+      <tr>
+        <td style="width:150px;padding:10px 0;border-top:1px solid #e6dfd5;color:#766f67;">Número de pessoas</td>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;">{{guests}}</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;color:#766f67;">Nomes dos convidados</td>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;">{{guest_names}}</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;color:#766f67;">Acompanhantes</td>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;">{{additional_guests}}</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;color:#766f67;">Recado</td>
+        <td style="padding:10px 0;border-top:1px solid #e6dfd5;white-space:pre-line;">{{message}}</td>
+      </tr>
+    </table>
+
+    <p style="margin:28px 0 0;color:#766f67;font-size:12px;">
+      Esta mensagem foi enviada pelo formulário de confirmação do site do casamento.
+    </p>
+  </div>
+</body>
+</html>
